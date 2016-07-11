@@ -60,7 +60,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->reender('index');
+        return $this->render('index');
     }
 
     /**
